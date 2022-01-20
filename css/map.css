@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
+.heading {
+  height: 58px;
+  background: #2193ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 6px -9px black;
+  position: relative;
+}
+.heading .mail {
+  color: white;
+  font-size: 1.06em;
+  position: absolute;
+  right: 0;
+  margin-right: 130px;
+}
+.heading .mail i {
+  margin-right: 6px;
+}
+.heading h2 a {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+.heading .log_out {
+  text-decoration: none;
+  color: #2193ef;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  margin-top: 2px;
+  top: 15px;
+  margin-right: 40px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 4px 12px;
+  transition: .2s;
+  font-weight: 600;
+  line-height: 1.3em;
+  font-size: .9em;
+}
+.heading .log_out:hover {
+  color: white;
+  background-color: #2193ef;
+  border: 1px solid white;
+}
+.mainMapContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mapContainer {
+  height: 540px;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map_c {
+  height: 100%;
+  width: 100%;
+}
+.puL_dL {
+  background: #2193ef;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.puL_dL form .dashed_l {
+  color: white;
+  font-weight: 900;
+  padding: 0px 12px;
+}
+.puL_dL form .lc {
+  color: white;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.puL_dL form .ic {
+  width: 300px;
+  height: 28px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  padding-bottom: 2.2px !important;
+  padding-left: 15px;
+  font-weight: 400;
+}
+.puL_dL form .ic::placeholder {
+  font-size: .8em;
+  color: rgb(169, 169, 169);
+  line-height: 6em;
+  font-weight: 500;
+}
+.puL_dL form .b_Now {
+  font-size: .9em;
+  height: 28px;
+  width: 100px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  color: #2193ef;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 1.4em;
+}
+

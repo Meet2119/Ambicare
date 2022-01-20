@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
+.main_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.outside_Form {
+    position: relative;
+}
+.main_form .rl_Title {
+    font-size: 3.2em;
+    text-align: center;
+    position: relative;
+    bottom: 56px;
+}
+.main_form img{
+    height: 70px;
+    width: 70px;
+}
+.main_form form {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 530px;
+}
+.main_form form label {
+    font-size: .7em;
+    color: rgb(151, 151, 151);
+}
+.main_form form .input_control {
+    font-size: .98em;
+    padding: 10px 0px 10px 0px;
+    margin: 4px 0px 14px 0px;
+    border: none;
+    border-bottom: 1.5px solid rgb(151, 151, 151);
+    outline: none;
+}
+.main_form form .input_control::placeholder {
+    font-size: .89em;
+    color: rgb(208, 208, 208);
+}
+.main_form form .input_control:focus {
+    border-bottom: 1.5px solid #71b2a5;
+}
+.main_form form .btn_r {
+    font-size: .9em;
+    height: 38.5px;
+    width: 100%;
+    text-align: center;
+    line-height: 2.4em;
+    background-color: #2193ef;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.c_Email {
+    color: red;
+    font-size: 1em;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 12px;
+}
+.alert {
+    color: red;
+    font-size: 1em;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 162px;
+}
+.login {
+    position: absolute;
+    color: black;
+    font-size: 1em;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.login_a {
+    text-decoration: none;
+    color: #2193ef;
+    font-weight: 600;
+}
+    
